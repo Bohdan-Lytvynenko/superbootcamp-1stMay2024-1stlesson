@@ -20,7 +20,7 @@
 .menu_content {
     display: flex;
     list-style-type: none;
-    padding: 10px;
+    padding: 0;
 }
 
 .menu_content li {
