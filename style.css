@@ -11,3 +11,27 @@
     display: flex;
     justify-content: space-between;
 }
+
+.header_elements {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.menu_content {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu_content li {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
