@@ -10,10 +10,12 @@
 .header_wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.header_elements {
+.container {
     max-width: 1240px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -25,6 +27,36 @@
 
 .menu_content li {
     padding: 20px;
+}
+
+/*This is a banner block*/
+
+.banner {
+    background: url(/images/bg.webp) center center no-repeat;
+}
+
+.banner_title {
+    color: #fff;
+    font-size: 56px;
+}
+
+.banner_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.banner_btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    
 }
 
 
