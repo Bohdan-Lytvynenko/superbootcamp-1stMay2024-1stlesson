@@ -6,12 +6,8 @@
 
 body {
       font-family: "Jaro", sans-serif;
-      font-optical-sizing: auto;
       font-weight: 400;
-      font-style: normal;  
-    }    
-
-
+}    
 
 .header_block {
     background-color: aqua;
@@ -41,7 +37,7 @@ body {
 /*This is a banner block*/
 
 .banner {
-    background: url(/images/bg.webp) center center no-repeat;
+    background: url(images/bg.webp) center center no-repeat;
 }
 
 .banner_title {
@@ -68,29 +64,40 @@ body {
     
 }
 
-.the_space_is_closer_that_we_may_think{
-    
+.the_space_is_closer_than_we_may_think{
     background-color: aquamarine;
+    padding: 80px 0;
 }
 
 .space_wrapper{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 400px;
     gap: 25px;
 }
 .the_space_is_closer {
-    text-align: center;
+    
     padding: 20px;
 }
 
-.video_from_Mars{
+/* .video_from_Mars{
     padding: 20px;
+} */
+
+.Mars_video {
+    border-radius: 25px;
 }
 
+/*cards block start*/
 
+.cards_block{
+    background-color: burlywood;
+    padding: 80px 0;
+}
+.cards_block_wrapper{
+    display: flex;
+    gap: 30px;
+}
 
 
 
