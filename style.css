@@ -68,6 +68,30 @@ body {
     
 }
 
+.the_space_is_closer_that_we_may_think{
+    
+    background-color: aquamarine;
+}
+
+.space_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    gap: 25px;
+}
+.the_space_is_closer {
+    text-align: center;
+    padding: 20px;
+}
+
+.video_from_Mars{
+    padding: 20px;
+}
+
+
+
 
 
 
