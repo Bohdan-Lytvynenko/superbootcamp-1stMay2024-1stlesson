@@ -67,20 +67,43 @@
       </div>
     </div>
     <section class="carousel">
+      <h2 class="carousel_main_title">Gallery</h2>
       <div class="container">
         <div class="owl-carousel owl-theme">
-          <div class="item"><a href="https://spaceplace.nasa.gov/all-about-mars/en/">Mars</a><img src="" alt=""></div>
-          <div class="item"><h4>2</h4></div>
-          <div class="item"><h4>3</h4></div>
-          <div class="item"><h4>4</h4></div>
-          <div class="item"><h4>5</h4></div>
-          <div class="item"><h4>6</h4></div>
-          <div class="item"><h4>7</h4></div>
+          <div class="item">
+            <a href="https://spaceplace.nasa.gov/all-about-mars/en/" target="_blank">
+              <img src="images/Mars.jpg" alt="Mars">
+            </a>
+            <div class="carousel_item_title">Mars</div>
+          </div>
+          <div class="item">
+            <a href="https://spaceplace.nasa.gov/all-about-mars/en/" target="_blank">
+              <img src="images/Jupiter.jpg" alt="Jupiter">
+            </a>
+            <div class="carousel_item_title">Jupiter</div>
+          </div>
+          <div class="item">
+            <a href="https://spaceplace.nasa.gov/all-about-mars/en/" target="_blank">
+              <img src="images/Venus.webp" alt="Venus">
+            </a>
+            <div class="carousel_item_title">Venus</div>
+          </div>
+          <div class="item">
+            <a href="https://spaceplace.nasa.gov/all-about-mars/en/" target="_blank">
+             <img src="images/Venus.webp" alt="Venus"> 
+            </a>
+            <div class="carousel_item_title">Venus</div>
+          </div>
+          <div class="item">
+            <a href="https://spaceplace.nasa.gov/all-about-mars/en/" target="_blank">
+              <img src="images/pluto.jpg" alt="Pluto">
+            </a>
+            <div class="carousel_item_title">Pluto</div>
+          </div>
         </div>
       </div>
     </section>
   </main>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="/assets/js/owl.carousel.min.js"></script>
   <script>
@@ -88,6 +111,8 @@
     loop:true,
     margin:10,
     nav:true,
+    autoplay:true,
+    autoplayTimeout:1950,
     responsive:{
         0:{
             items:1
@@ -96,7 +121,7 @@
             items:3
         },
         1000:{
-            items:5
+            items:4
         }
     }
 })

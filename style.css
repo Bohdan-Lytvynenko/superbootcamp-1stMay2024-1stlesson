@@ -114,6 +114,24 @@ body {
     margin-top: 20px;
     text-align: center;
     }
+.item img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    padding-bottom: 15px;
+}
+.carousel_item_title{
+    text-align: center;
+    font-size: 25px;
+}
+.carousel{
+    padding: 80px 0;
+}
+.carousel_main_title{
+    text-align: center;
+    font-size: 46px;
+    padding-bottom: 20px;
+}
 
 
 
