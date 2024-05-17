@@ -132,7 +132,24 @@ body {
     font-size: 46px;
     padding-bottom: 20px;
 }
-
+.about_nasa_title{
+    text-align: center;
+    font-size: 46px;
+    padding-bottom: 20px;
+   
+}
+.about_nasa{
+    background-color: bisque;
+    padding-top: 80px;
+}
+.about_nasa_image{
+    width: 400px;
+    height: 280px;
+}
+.about_nasa_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
