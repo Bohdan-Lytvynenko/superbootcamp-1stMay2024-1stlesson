@@ -135,7 +135,7 @@ body {
 .about_nasa_title{
     text-align: center;
     font-size: 46px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
    
 }
 .about_nasa{
@@ -143,14 +143,27 @@ body {
     padding-top: 80px;
 }
 .about_nasa_image{
-    width: 400px;
-    height: 280px;
+    width: 597px;
+    height: 420px;
 }
 .about_nasa_wrapper{
     display: flex;
     justify-content: space-between;
+    gap: 90px;
 }
-
+.about_nasa_text_title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about_nasa_text_content{
+    text-align: justify;
+    
+}
+.carousel_subtitle{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(90, 86, 86);
+}
 
 
 
