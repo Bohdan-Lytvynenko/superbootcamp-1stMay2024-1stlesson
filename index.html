@@ -70,7 +70,7 @@
       <h2 class="carousel_main_title">Gallery</h2>
       <h3 class="carousel_subtitle">Push on planet to find out</h3>
       <div class="container">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-carousel_1 owl-theme">
           <div class="item">
             <a href="https://spaceplace.nasa.gov/all-about-mars/en/" target="_blank">
               <img src="images/Mars.jpg" alt="Mars">
@@ -120,11 +120,50 @@
         </div>
       </div>
     </section>
+    <section class="carousel_2">
+      <h2 class="carousel2_title">Our expedition</h2>
+      <div class="container">
+        <div class="owl-carousel owl-carousel_2 owl-theme">
+          <div class="item">
+            <div class="item_wrapper">
+              <img class="item_wrapper_img" src="images/Jupiter.jpg" alt="Jupiter">
+              <p class="item_wrapper_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum suscipit commodi molestiae ducimus placeat tempore asperiores fuga est, animi neque illo porro nihil nulla ad. Deleniti, at! Quisquam, pariatur.
+              Libero accusamus fuga eos, ducimus, dolore, dicta illum vitae aut distinctio aperiam sunt rerum corporis officia odit aliquid rem totam placeat animi possimus obcaecati odio sint reprehenderit ea? Magnam, dignissimos.</p>
+              <a class="item_wrapper_btn" href="#">Read more...</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item_wrapper">
+              <img class="item_wrapper_img" src="images/Mars.jpg" alt="Mars">
+              <p class="item_wrapper_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum suscipit commodi molestiae ducimus placeat tempore asperiores fuga est, animi neque illo porro nihil nulla ad. Deleniti, at! Quisquam, pariatur.
+              Libero accusamus fuga eos, ducimus, dolore, dicta illum vitae aut distinctio aperiam sunt rerum corporis officia odit aliquid rem totam placeat animi possimus obcaecati odio sint reprehenderit ea? Magnam, dignissimos.</p>
+              <a class="item_wrapper_btn" href="#">Read more...</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item_wrapper">
+              <img class="item_wrapper_img" src="images/pluto.jpg" alt="Pluto">
+              <p class="item_wrapper_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum suscipit commodi molestiae ducimus placeat tempore asperiores fuga est, animi neque illo porro nihil nulla ad. Deleniti, at! Quisquam, pariatur.
+              Libero accusamus fuga eos, ducimus, dolore, dicta illum vitae aut distinctio aperiam sunt rerum corporis officia odit aliquid rem totam placeat animi possimus obcaecati odio sint reprehenderit ea? Magnam, dignissimos.</p>
+              <a class="item_wrapper_btn" href="#">Read more...</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item_wrapper">
+              <img class="item_wrapper_img" src="images/Venus.webp" alt="Venus">
+              <p class="item_wrapper_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum suscipit commodi molestiae ducimus placeat tempore asperiores fuga est, animi neque illo porro nihil nulla ad. Deleniti, at! Quisquam, pariatur.
+              Libero accusamus fuga eos, ducimus, dolore, dicta illum vitae aut distinctio aperiam sunt rerum corporis officia odit aliquid rem totam placeat animi possimus obcaecati odio sint reprehenderit ea? Magnam, dignissimos.</p>
+              <a class="item_wrapper_btn" href="#">Read more...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <script>
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carousel_1').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -139,6 +178,24 @@
         },
         1000:{
             items:4
+        }
+    }
+})
+  </script>
+  <script>
+    $('.owl-carousel_2').owlCarousel({
+    loop:true,
+    margin:50,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
         }
     }
 })
