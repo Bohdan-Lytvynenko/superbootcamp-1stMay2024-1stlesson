@@ -174,9 +174,40 @@ body .item_wrapper_img{
     object-fit: cover;
     height: 286px;
     width: 286px;
-   
+}
+.item_wrapper_btn{
+    text-decoration: none;
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+.item_wrapper_btn:hover{
+    background-color: gray;
+    color: aquamarine;
+    border-radius: 10px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 81px 51px 44px 12px rgba(153,122,153,1);
+    -moz-box-shadow: 81px 51px 44px 12px rgba(153,122,153,1);
+    box-shadow: 81px 51px 44px 12px rgba(153,122,153,1);
+}
+.item_wrapper_text{
+    margin-bottom: 10px;
 }
 
+.carousel_2{
+    padding-bottom: 80px;
+}
+footer{
+    background-color: aqua;
+    padding: 80px 0;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 

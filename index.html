@@ -160,6 +160,21 @@
       </div>
     </section>
   </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_wrapper">
+        <div class="logo">LOGO</div>
+        <div class="footer_wrapper_menu">
+          <ul class="footer_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Expeditions</a></li>
+            <li><a href="#">Planets</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
   <script>
@@ -186,7 +201,10 @@
     $('.owl-carousel_2').owlCarousel({
     loop:true,
     margin:50,
-    nav:true,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:3950,
     responsive:{
         0:{
             items:1
