@@ -207,7 +207,46 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+=======
+}
+.footer_menu li{
+    list-style: none;
+}
+.footer_menu a{
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.footer_menu a:hover{
+    text-decoration: underline;
+}
+.footer_wrapper_menu{
+    display: flex;
+    gap: 50px;
+}
+.footer_menu_2 li{
+    list-style: none;
+}
+.footer_menu_2 a{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+>>>>>>> 98653c8 (added new elements end footer)
 }
 
 
 
+<<<<<<< HEAD
+=======
+
+/* Media queries */
+
+@media screen and (max-width:600px){
+.banner_btn{
+    display: none;
+}
+}
+
+
+>>>>>>> 98653c8 (added new elements end footer)
