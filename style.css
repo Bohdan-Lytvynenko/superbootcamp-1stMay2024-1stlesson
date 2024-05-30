@@ -207,8 +207,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-=======
+
 }
 .footer_menu li{
     list-style: none;
@@ -232,14 +231,7 @@ footer{
     color: grey;
     text-decoration: none;
     text-transform: uppercase;
->>>>>>> 98653c8 (added new elements end footer)
 }
-
-
-
-<<<<<<< HEAD
-=======
-
 /* Media queries */
 
 @media screen and (max-width:600px){
@@ -247,6 +239,3 @@ footer{
     display: none;
 }
 }
-
-
->>>>>>> 98653c8 (added new elements end footer)
