@@ -262,6 +262,13 @@ footer{
         height: 420px;
 }
 }
+
+@media screen and (max-width: 686px) {
+    .banner_title {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 669px){
     .banner_title {
         font-size: 42px;
@@ -279,6 +286,13 @@ footer{
         flex-direction: column;
         align-items: center;
 }
+}
+
+@media screen and (max-width: 491px){
+    .the_space_is_closer {
+        padding: 0;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:437px){
@@ -322,3 +336,88 @@ footer{
     font-size: 42px;
 }
 }
+
+@media screen and (max-width: 394px) {
+    .about_nasa_wrapper {
+        gap: 45px;
+    }
+}
+@media screen and (max-width:393px){
+    .menu_content {
+        align-items: center;
+    }
+    .menu_content li a {
+        font-size: 14px;
+        color: #000;
+    }
+
+.the_space_is_closer {
+    padding: 0px;
+    text-align: center;
+}
+.the_space_is_closer_than_we_may_think {
+    padding: 35px 0;
+}
+.cards_block {
+    background-color: rgb(131, 126, 122);
+    padding: 35px 0;
+}
+.about_nasa {
+    background-color: #986cae;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.about_nasa_title {
+    font-size: 35px;
+    padding-bottom: 8px;
+}
+.about_nasa_text_content {
+text-align: justify;
+font-size: 14px;
+}
+.carousel_2 {
+padding-bottom: 35px;
+}
+.carousel2_title {
+text-align: center;
+padding: 35px 0;
+font-size: 40px;
+}
+
+.carousel {
+    padding: 50px 0;
+}
+.container {
+    padding: 12px 0;
+    font-size: 14px;
+}
+footer {
+    padding: 50px 10px;
+}
+.logo {
+    padding-left: 10px;
+}
+img.item_wrapper_img {
+    padding: 0 10px;
+}
+footer {
+    padding: 30px 10px;
+}
+}
+    
+@media screen and (max-width:360px){
+    .about_nasa_text_content {
+        padding: 0 10px;
+    }
+    .menu_content li {
+        padding: 14px;
+    }
+    .cards_text {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .item_wrapper_text {
+        padding: 0 10px;
+    }
+}
+
